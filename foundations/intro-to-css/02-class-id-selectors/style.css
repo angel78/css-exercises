@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+.clase {
+    background-color: pink;
+    font-size: 16px;
+    line-height: 1.5; 
+    font-family: Arial, sans-serif;
+ }
+
+#id1 {
+    color: blue;
+    font-size: 32px;
+    font-family: "Times New Roman", serif;
+}
+
+#id2 {
+    background-color: lightgreen;
+    color: green;
+    font-family: "Courier New", monospace;
+}
+
+.adjust-font-size {
+    font-size: 34px;
+}
