@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.una {
+    background-color: black;
+  color: white;
+  font-weight: bold;
+
+
+}/* Add CSS Styling */
+.dos {
+    background-color: yellow;
+    font-size: 18px;
+    color: black;
+}
+.unico {
+  
+  padding: 10px;
+}
