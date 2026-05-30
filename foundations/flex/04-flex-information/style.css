@@ -8,9 +8,39 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
 }
+.ilustraciones {
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+  margin-top: 20px;
+}
+.barberry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chilli {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 /* do not edit this footer */
 .footer {
