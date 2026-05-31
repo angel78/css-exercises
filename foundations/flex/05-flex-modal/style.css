@@ -16,8 +16,13 @@ body {
 }
 
 .modal {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
   background: white;
   width: 480px;
+  margin:30px;
+  padding: 24px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -63,6 +68,8 @@ button.continue {
 }
 
 button.cancel {
+  display: flex;
+  justify-content: start;
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
