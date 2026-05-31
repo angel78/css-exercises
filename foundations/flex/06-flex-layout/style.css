@@ -24,3 +24,37 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+.header {
+  list-style-type: none; /* Removes the bullet points */
+  justify-content: space-between;
+  display: flex;
+  margin: 20;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none; /* Removes the bullet points */
+  }
+
+  .left-links {
+     display: flex;
+   padding: 20;
+   margin: 20;
+    gap: 16px;
+  }
+  .right-links {
+    display: flex;
+    padding: 20;
+    margin: 20;
+    gap: 16px;
+  }
+  .footer {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 16px;
+    background: #eee;
+    align-items: bottom;
+  }
